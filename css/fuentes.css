@@ -1,0 +1,65 @@
+/* ========================================================== */
+/* == Imports =============================================== */
+
+@import url("fuente_audiowide.css");
+@import url("fuente_dm-sans.css");
+
+/* ========================================================== */
+/* == Propiedades Comunes =================================== */
+
+.audiowide-regular,
+.dm-sans-regular,
+.dm-sans-regular-italic,
+.dm-sans-medium,
+.dm-sans-medium-italic,
+.dm-sans-bold,
+.dm-sans-bold-italic {
+  /*font-stretch: normal;*/
+  font-variant: normal;
+  font-size: 1em;
+  line-height: normal;  
+  /*font-size: 0.875em;*/
+}
+
+/* ========================================================== */
+/* == Audiowide ============================================= */
+
+/* == Audiowide - Regular (400) ==== */
+.audiowide-regular {
+  font-family: "Audiowide Regular";
+  font-weight: 400;
+}
+
+/* ========================================================== */
+/* == DM Sans =============================================== */
+
+/* == DM Sans - Regular (400) ==== */
+.dm-sans-regular {
+  font-family: "DM Sans Regular";
+  font-weight: 400;
+}
+/* == DM Sans - Regular (400) - Italic ==== */
+.dm-sans-regular-italic {
+  font-family: "DM Sans Regular Italic";
+  font-weight: 400;
+}
+/* == DM Sans - Medium (500) ==== */
+.dm-sans-medium {
+  font-family: "DM Sans Medium";
+  font-weight: 500;
+}
+/* == DM Sans - Medium (500) - Italic ==== */
+.dm-sans-medium-italic {
+  font-family: "DM Sans Medium Italic";
+  font-weight: 500;
+}
+/* == DM Sans - Bold (700) ==== */
+.dm-sans-bold {
+  font-family: "DM Sans Bold";
+  font-weight: 700;
+}
+/* == DM Sans - Bold (700) - Italic ==== */
+.dm-sans-bold-italic {
+  font-family: "DM Sans Bold Italic";
+  font-weight: 700;
+}

@@ -1,0 +1,60 @@
+/* == DM Sans - Regular (400) ==== */
+@font-face {
+  font-family: 'DM Sans Regular';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_400_regular.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_400_regular.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/dm-sans_400_regular.ttf')     format('truetype'); /* Safari, Android, iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+/* == DM Sans - Regular (400) - Italic ==== */
+@font-face {
+  font-family: 'DM Sans Regular Italic';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_400_regular_italic.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_400_regular_italic.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/dm-sans_400_regular_italic.ttf')     format('truetype'); /* Safari, Android, iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+/* == DM Sans - Medium (500) ==== */
+@font-face {
+  font-family: 'DM Sans Medium';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_500_medium.woff2')     format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_500_medium.woff')       format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/fuentes/dm-sans_500_medium.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+/* == DM Sans - Medium (500) - Italic ==== */
+@font-face {
+  font-family: 'DM Sans Medium Italic';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_500_medium_italic.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_500_medium_italic.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/dm-sans_500_medium_italic.ttf')     format('truetype'); /* Safari, Android, iOS */
+  font-weight: 500;
+  font-style: italic;
+}
+/* == DM Sans - Bold (700) ==== */
+@font-face {
+  font-family: 'DM Sans Bold';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_700_bold.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_700_bold.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/dm-sans_700_bold.ttf')     format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+/* == DM Sans - Bold (700) - Italic ==== */
+@font-face {
+  font-family: 'DM Sans Bold Italic';
+  src: local(''),
+       url('../recursos/fuentes/woff2/dm-sans_700_bold_italic.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../recursos/fuentes/woff/dm-sans_700_bold_italic.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../recursos/fuentes/ttf/dm-sans_700_bold_italic.ttf')     format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: italic;
+}
