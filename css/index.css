@@ -51,7 +51,7 @@ header {
   max-width: 220px;
   width: 100%;
   min-height: 74px;
-  border-radius: 12px 12px 0 0;  
+  border-radius: 8px 8px 0 0;  
   background-color: #292B2E;
   /*background-color: blue;*/
 }
@@ -166,6 +166,7 @@ header {
   max-width: 220px;
   width: 100%;
   /*padding-top: 32px;*/
+  border-bottom-left-radius: 8px;
   background-color: #292B2E;
   /*background-color: blueviolet;*/
 }
@@ -259,7 +260,7 @@ main {
   display: flex;
   /*min-height: 600px;*/
   padding: 18px 18px 32px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0 8px 0 0;
   background-color: #292B2E;
 }
 /* == Contenedor de cards de juegos == */
@@ -500,49 +501,13 @@ main {
   color: #FFF;
 }
 
-
-
-
-
-
-
-
-
-/* == Contenedor de icono de avatar y título Sitio en Construcción == */
-.main_d-1 {
-  max-width: 390px;
-  width: 100%;
-  margin: auto;
-  padding: 18px 12px 18px;
-  /*min-height: 143px;*/
-  border-radius: 8px;
-  background-color: #202124;
-  box-shadow: 4px 4px 7px -2px #000;
-}
-/* == Icono de avatar == */
-.main_d-1 img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: auto;
-}
-/* == Título Sitio en Construcción == */
-.main_d-1 h1 {
-  display: table;
-  margin: 12px auto 0;
-  font-size: 1.625em;
-  color: #FFF;
-
-  /*background-color: red;*/
-}
-
 /* ========================================================= */
 /* == Footer =============================================== */
 
 footer {
   margin-top: 6px;
   padding: 18px 12px 18px;
-  border-radius: 0 0 12px 0;
+  border-radius: 0 0 8px 0;
   background-color: #292B2E;
 }
 /* == Talento Tech == */
