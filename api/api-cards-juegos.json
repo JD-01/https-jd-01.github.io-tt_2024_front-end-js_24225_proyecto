@@ -1,0 +1,30 @@
+{
+  "url" : "https://jd-01.github.io/tt_front-end-js_2024_24225_proyecto/",
+
+  "rutas" :
+  {
+    "imagenes" : "recursos/imagenes/",
+    "iconos"   : "recursos/iconos/"
+  },
+
+  "cards-juegos" :
+  [
+    {
+      "img-juego"       : "fallout-4_t-1.png",
+      "nombre"          : "Fallout 4",
+      "img-plataformas" :
+      [
+        "icono-windows_t-1.png",
+        "icono-xbox_t-1.png",
+        "icono-play-station_t-1.png"
+      ],
+      "calificacion"    : 5,
+      "descuento"       : 75,
+      "precio"          :
+      {
+        "anterior" : 25.000,
+        "actual"   : 6.250
+      }
+    }
+  ]
+}
