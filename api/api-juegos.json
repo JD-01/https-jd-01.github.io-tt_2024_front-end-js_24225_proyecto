@@ -2,6 +2,7 @@
   "juegos" :
   [
     {
+      "id"           :"juego-0001",
       "imagen"       : "recursos/imagenes/fallout-4_t-1.png",
       "nombre"       : "Fallout 4",
       "plataformas"  : [ "win", "xbox", "play" ],
@@ -11,6 +12,7 @@
     },
 
     {
+      "id"           :"juego-0002",
       "imagen"       : "recursos/imagenes/fallout-3_t-1.png",
       "nombre"       : "Fallout 3",
       "plataformas"  : [ "win", "xbox" ],
@@ -20,6 +22,7 @@
     },
 
     {
+      "id"           :"juego-0003",      
       "imagen"       : "recursos/imagenes/fallout-new-vegas_t-1.png",
       "nombre"       : "Fallout: New Vegas",
       "plataformas"  : [ "win" ],
@@ -29,6 +32,7 @@
     },
 
     {
+      "id"           :"juego-0004",      
       "imagen"       : "recursos/imagenes/tes-v-skyrim_t-1.png",
       "nombre"       : "The Elder Scrolls V: Skyrim",
       "plataformas"  : [ "win", "xbox" ],
@@ -38,6 +42,7 @@
     },
 
     {
+      "id"           :"juego-0005",      
       "imagen"       : "recursos/imagenes/tes-iv-oblivion_t-1.png",
       "nombre"       : "The Elder Scrolls IV: Oblivion",
       "plataformas"  : [ "win" ],
@@ -47,6 +52,7 @@
     },
 
     {
+      "id"           :"juego-0006",      
       "imagen"       : "recursos/imagenes/tes-iii-morrowind_t-1.png",
       "nombre"       : "The Elder Scrolls III: Morrowind",
       "plataformas"  : [ "win" ],
@@ -56,6 +62,7 @@
     },
 
     {
+      "id"           :"juego-0007",
       "imagen"       : "recursos/imagenes/the-witcher-3_t-1.png",
       "nombre"       : "The Witcher 3: Wild Hunt",
       "plataformas"  : [ "win", "xbox", "play" ],
@@ -65,6 +72,7 @@
     },
 
     {
+      "id"           :"juego-0008",      
       "imagen"       : "recursos/imagenes/the-witcher-2_t-1.png",
       "nombre"       : "The Witcher 2: Assassing of Kings",
       "plataformas"  : [ "win" ],
