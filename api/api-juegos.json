@@ -25,7 +25,7 @@
     "nombre"       : "Fallout: New Vegas",
     "plataformas"  : [ "win" ],
     "calificacion" : 4.9,
-    "descuento"    : { "descripcion" : null, "porcentaje" : -75},
+    "descuento"    : { "descripcion" : "Cyber Monday", "porcentaje" : -75},
     "precio"       : { "anterior" : 20000, "actual" : 5000 }
   },
 
