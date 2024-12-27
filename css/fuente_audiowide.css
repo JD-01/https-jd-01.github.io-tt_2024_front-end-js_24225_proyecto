@@ -2,9 +2,9 @@
 @font-face {
   font-family: 'Audiowide Regular';
   src: local(''),
+       url('../recursos/fuentes/ttf/audiowide_400_regular.ttf')     format('truetype'), /* Safari, Android, iOS */
        url('../recursos/fuentes/woff2/audiowide_400_regular.woff2') format('woff2'),    /* Navegadores Super Modernos: Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../recursos/fuentes/woff/audiowide_400_regular.woff')   format('woff'),     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-       url('../recursos/fuentes/ttf/audiowide_400_regular.ttf')     format('truetype'); /* Safari, Android, iOS */
+       url('../recursos/fuentes/woff/audiowide_400_regular.woff')   format('woff');     /* Navegadores Modernos: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-weight: 400;
   font-style: normal;
 }
