@@ -1,0 +1,287 @@
+/* ========================================================== */
+/* == Propiedades Globales ================================== */
+
+* {
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ======== */
+html, body {
+  height: 100%;
+}
+/* ======== */
+body {
+  background-color: #575B62;
+}
+/* ======== */
+body, button {
+  font-size: 100%;
+}
+
+/* == Propiedad valor - display: none == */
+.g__display_none {
+  display: none !important;
+}
+
+/* == Enlace Tipo 1 == */
+.g_enlace-t-1:hover {
+  color: #89E1FF;
+  text-decoration: underline #00BFFF dotted 2px;
+  text-underline-offset: 4px;
+}
+.g_enlace-t-1:active {
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+/* ========================================================== */
+/* == Contenedor base ======================================= */
+
+.contenedor-base {
+  max-width: 1280px;
+  margin: auto;
+  padding: 12px;
+}
+/* == Contenedor de elementos: header, nav (lateral izquierdo), main y footer == */
+.contenedor-base_d-1 {
+  max-width: 1256px;
+  padding: 6px;
+  border-radius: 12px;
+  background-color: #202124;
+}
+
+/* ========================================================= */
+/* == Header =============================================== */
+
+header {
+  display: flex;
+  /*background-color: red;*/
+}
+/* == Contenedor de icono control y logo-texto Talento Tech == */
+.header_d-1 {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  max-width: 220px;
+  width: 100%;
+  min-height: 74px;
+  border-radius: 8px 8px 0 0;  
+  background-color: #292B2E;
+}
+/* == Contenedor de icono control == */
+.header_d-1_d-1 {
+  display: flex;
+  align-items: center;
+  max-width: 60px;
+  width: 100%;
+  min-height: 40px;
+  border-radius: 0 20px 20px 0;
+  background-color: #202124;
+}
+/* == Icono control == */
+.header_d-1_d-1_img-1 {
+  display: block;
+  margin-left: 9px;
+  width: 36px;
+  height: 22px;
+}
+/* == Logo-texto Talento Tech == */
+.header_d-1_p-1 {
+  font-size: 1.125em;
+  color: #FFF;
+}
+
+/* == Contenedor de nav (superior izquierdo) e icono avatar == */
+.header_d-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+
+}
+/* == Nav (superior izquierdo) == */
+.header_d-2_nav-1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+/* == Enlace a Carrito == */
+.header_d-2_nav-1_a-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  width: 28px;
+  height: 29px;
+}
+/* == Cantidad de elementos del carrito == */
+.header_d-2_nav-1_a-1 p {
+  display: table;
+  position: absolute;
+  min-width: 14px;
+  height: 14px;
+  top: 0;
+  left: 9px;
+  padding: 1px;
+  border-radius: 50%; /*7px*/
+  font-size: 0.75em;
+  line-height: 1em;
+  color:#FFF;
+  text-align: center;
+}
+/* == Cantidad de elementos del carrito - Estado 1 == */
+.header_d-2_nav-1_a-1_p-1_e-1 {
+  background-color: #575B62;
+}
+/* == Cantidad de elementos del carrito - Estado 2 == */
+.header_d-2_nav-1_a-1_p-1_e-2 {
+  background-color: #008C69;
+}
+/* == Icono carrito == */
+.header_d-2_nav-1_a-1 img {
+  display: block;
+  width: 28px;
+  height: 22px;
+}
+/* == Enlaces a Entrar y Crear cuenta == */
+.header_d-2_nav-1_a-2,
+.header_d-2_nav-1_a-3 {
+  font-size: 1em;
+  color: #E4E5E6;
+  text-decoration: none;
+}
+/* == Icono de Avatar == */
+.header_img-1 {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
+/* ========================================================= */
+/* == Contenedor Nav-Main-Footer =========================== */
+
+.contenedor-nav-main-footer {
+  display: flex;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+/* ========================================================= */
+/* == Nav ================================================== */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  width: 100%;
+  border-bottom-left-radius: 8px;
+  background-color: #292B2E;
+ }
+/* == Contenedor (Tipo 1) de Sección: Sitio, Cuenta, ... == */
+.nav_d-t-1 {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  margin-top: 32px;
+  background-color: #323538;
+}
+/* == Sitio, Cuenta, ... == */
+.nav_d-t-1 p {
+  max-width: 202px;
+  width: 100%;
+  margin-left: auto; /*24px;*/
+  padding: 0 6px 0;  
+  font-size: 1.125em;
+  color:#99A4B1;
+  line-height: 1em;
+}
+/* == Contenedor (Tipo 2) de icono y enlace Inicio == */
+.nav_d-t-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  max-width: 202px;
+  width: 100%;
+  margin: 24px 0 0 auto;
+  padding: 0 6px 0;
+}
+/* == Contenedor de icono == */
+.nav_d-t-2_d-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 28px;
+  width: 100%;
+  min-height: 24px;
+}
+/* == Icono == */
+.nav_d-t-2_d-1 img {
+  display: block;
+}
+/* == Icono Inicio == */
+.nav_d-t-2_d-1_img-t-1 {
+  width: 24px;
+  height: 24px;
+}
+/* == Icono Contacto == */
+.nav_d-t-2_d-1_img-t-2 {
+  width: 25px;
+  height: 24px;
+}
+/* == Icono Carrito == */
+.nav_d-t-2_d-1_img-t-3 {
+  width: 28px;
+  height: 22px;
+}
+/* == Enlace == */
+.nav_d-t-2_a-1 {
+  font-size: 1em;
+  color: #E4E5E6;
+  text-decoration: none;
+}
+
+/* ========================================================= */
+/* == Contenedor Main-Footer =============================== */
+
+.contenedor-main-footer {
+  display: flex;
+  max-width: 1018px;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* ========================================================= */
+/* == Main ================================================= */
+
+main {
+  display: flex;
+  padding: 18px 18px 32px;
+  border-radius: 0 8px 0 0;
+  background-color: #292B2E;
+}
+
+/* ========================================================= */
+/* == Footer =============================================== */
+
+footer {
+  margin-top: 6px;
+  padding: 18px 12px 18px;
+  border-radius: 0 0 8px 0;
+  background-color: #292B2E;
+}
+/* == Talento Tech == */
+.footer_p-1 {
+  padding-bottom: 12px;  
+  /*font-size: 1.25em;*/
+  font-size: 1.5em;
+  color: #FFF;
+}
+/* == Año 2024 - Curso Frond-End JS - Comisión 24225 - Proyecto Final Integrador == */
+.footer_p-2 {
+  padding-top: 12px;
+  border-top: solid 1px #C5C8CC;
+  color: #FFF;
+}

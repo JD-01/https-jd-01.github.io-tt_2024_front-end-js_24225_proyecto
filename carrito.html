@@ -11,13 +11,13 @@
 
   <!-- == ## Título ####################################### == -->
 
-  <title>Talento Tech 2024 - Front-End JS - Comisión 24225 - Proyecto - Inicio</title>
+  <title>Talento Tech 2024 - Front-End JS - Comisión 24225 - Proyecto - Carrito</title>
 
   <!-- == ## CSS Externo ################################## == -->
 
   <link rel="stylesheet" href="css/fuentes.css">
   <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/carrito.css">
 
 </head>
 
@@ -46,7 +46,7 @@
         </div>
 
         <!-- == Logo-texto Talento Tech == -->
-        <p class="audiowide-regular header_d-1_p-1">Talento Tech</p>
+        <p class="audiowide-regular  header_d-1_p-1">Talento Tech</p>
 
       </div>
 
@@ -60,7 +60,7 @@
           <a href="carrito.html" class="header_d-2_nav-1_a-1">
 
             <!-- == Cantidad de elementos del carrito == -->
-            <p class="dm-sans-regular header_d-2_nav-1_a-1_p-1_e-1">0</p>
+            <p class="dm-sans-regular header_d-2_nav-1_a-1_p-1_e-2">0</p>
 
             <!-- == Icono de carrito == -->
             <img src="recursos/iconos/icono-carrito_t-1_e-1_t-2.png" alt="icono-carrito">
@@ -161,12 +161,80 @@
         <!-- == #### Main ####################################### == -->
         <main>
 
-          <!-- == #### Contenedor de cards de juegos ############## == -->
+          <!-- == #### Contenedor de carrito ###################### == -->
           <section class="main_sec-1">
 
-            <!-- == ################################################# == -->
-            <!-- El contenido de esta sección es generado con JavaScript -->
-            <!-- == ################################################# == -->
+            <!-- == Contenedor de título Carrito, cantidad de elementos agregados, elementos de carrito vacio y contenedores de elementos == -->
+            <div class="main_sec-1_d-1 main_sec-1_d-1_e-1">
+
+              <!-- == Contenedor de título Carrito y cantidad de elementos agregados == -->
+              <div class="main_sec-1_d-1_d-1">
+
+                <!-- == Título Carrito == -->
+                <h1 class="audiowide-regular">Carrito</h1>
+
+                <!-- == Cantidad de elementos agregados == -->
+                <p><span class="dm-sans-medium span-1">Elementos:</span> <span class="dm-sans-regular span-2">0</span></p>
+
+              </div>
+
+              <!-- == ################################################# == -->
+
+              <!-- == Contenedor de elementos de carrito vacio == -->
+              <div class="main_sec-1_d-1_d-2 g__display_none">
+
+                <!-- == Icono Carrito Vacio == -->
+                <img src="recursos/iconos/icono-carrito_t-1_e-1_t-3.png" alt="imagen-carrito" class="">
+
+                <!-- == El carrito está vacio :( == -->
+                <p class="dm-sans-medium main_sec-1_d-1_d-2_p-1">El carrito está vacio :(</p>
+
+                <!-- == Volver a Inicio == -->
+                <a href="index.html" class="g_enlace-t-1 main_sec-1_d-1_d-2_a-1"><span class="dm-sans-medium">Volver a</span> <span class="audiowide-regular">Inicio</span></a>
+
+              </div>
+
+              <!-- == ################################################# == -->
+              <!-- == 
+              Contenedores (Tipo 1) de elementos: imagen, nombre, descuento, precio del juego y botón Eliminar
+
+              El contenido de esta sección es generado con JavaScript 
+              -->
+              <!-- == ################################################# == -->
+
+              <!-- == #### Contenedor de total #### == -->
+              <div class="main_sec-1_d-1_d-3">
+
+                <!-- == Total == -->
+                <p><span class="dm-sans-medium span-1">Total:</span> <span class="dm-sans-bold span-2">$0</span></p>
+
+              </div>
+
+            </div>
+
+            <!-- == Contenedor de total, monto y botón Pagar == -->
+            <div class="main_sec-1_d-2">
+
+              <!-- == Total y monto == -->
+              <div class="main_sec-1_d-2_d-1">
+
+                <!-- == Total y monto == -->
+                <p><span class="dm-sans-medium span-1">Total:</span> <span class="dm-sans-bold span-2">$0</span></p>
+
+              </div>
+
+              <!-- == Botón Pagar == -->
+              <button class="main_sec-1_d-2_button-1">
+ 
+                <!-- == Icono Pagar == -->
+                <img src="recursos/iconos/icono-carrito_t-1_e-4_t-2.png" alt="Pagar" class="dm-sans-regular">
+ 
+                <!-- == Pagar == -->
+                <p class="dm-sans-medium-italic">Pagar</p>
+ 
+              </button>
+
+            </div>
 
           </section>
 
@@ -194,7 +262,7 @@
 <!-- == ## Scripts ###################################################################################################### == -->
 
 <script src="js/global.js"></script>
-<script src="js/index.js"></script>
+<script src="js/carrito.js"></script>
 
 <!-- == ################################################################################################################# == -->
 

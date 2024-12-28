@@ -1,0 +1,323 @@
+/* ========================================================== */
+/* == Carrito =============================================== */
+
+/* == Contenedor de carrito == */
+.main_sec-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+}
+/* == Contenedor de título Carrito, cantidad de elementos agregados, contenedores de elementos, total y monto == */
+.main_sec-1_d-1 {
+  width: 100%;
+}
+/* == Contenedor de título Carrito, ... - Estado 1 == */
+.main_sec-1_d-1_e-1 {
+  max-width: 704px;
+}
+/* == Contenedor de título Carrito, ... - Estado 2 == */
+.main_sec-1_d-1_e-2 {
+  max-width: none;
+}
+
+/* == Contenedor de título Carrito y cantidad de elementos agregados == */
+.main_sec-1_d-1_d-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px 12px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 8px;
+}
+/* == Título Carrito == */
+.main_sec-1_d-1_d-1 h1 {
+  padding-top: 6px;
+  font-size: 1.25em;
+  color: #FFF;
+}
+/* == Cantidad de elementos agregados == */
+.main_sec-1_d-1_d-1 p {
+  min-height: 36px;
+  padding: 6px;
+  border-radius: 6px;
+  border: solid 1px #575B62;
+  font-size: 1.125em;
+}
+.main_sec-1_d-1_d-1 p .span-1 {
+  color: #99A4B1;
+}
+.main_sec-1_d-1_d-1 p .span-2 {
+  color: #FFF;
+}
+
+/* == Contenedor de elementos de carrito vacio == */
+.main_sec-1_d-1_d-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 6px 0px;
+  border-top: solid 1px #575B62;
+  /*background-color: red;*/
+}
+
+/* == Icono Carrito Vacio == */
+.main_sec-1_d-1_d-2 img {
+  display: block;
+  width: 128px;
+  height: 104px;
+  font-size: 0.75em;
+  color: #C5C7CC;
+}
+/* == El carrito está vacio :( == */
+.main_sec-1_d-1_d-2_p-1 {
+  margin-top: 24px;
+  font-size: 1.25em;
+  color: #99A4B1;
+}
+/* == Volver a Inicio == */
+.main_sec-1_d-1_d-2_a-1 {
+  display: block;
+  margin-top: 12px;
+  font-size: 1em;
+  color: #E4E5E6;
+  text-decoration: none;
+}
+
+/* == Contenedor (Tipo 1) de elemento: imagen, nombre, descuento, precio del juego y botón Eliminar == */
+.main_sec-1_d-1_d-t-1 {
+  display: flex;
+  gap: 12px;
+  min-height: 181px;
+  padding: 12px 0;
+  border-top: solid 1px #575B62;
+}
+
+/* == Contenedor de imagen del juego == */
+.main_sec-1_d-1_d-t-1_d-1 {
+  width: 126px;
+  height: 156px;
+  padding-top: 2px;
+  border-radius: 6px;
+  border: solid 1px #575B62;
+}
+/* == Imagen del juego == */
+.main_sec-1_d-1_d-t-1_d-1 img {
+  display: block;
+  width: 120px;
+  height: 150px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #202124;
+  font-size: 0.75em;
+  color: #C5C7CC;
+}
+/* == Contenedor de nombre, descuento, precio del juego y botón Eliminar == */
+.main_sec-1_d-1_d-t-1_d-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 566px;
+  width: 100%;
+  min-height: 156px;
+}
+/* == Contenedor de nombre, descuento y precio del juego == */
+.main_sec-1_d-1_d-t-1_d-2_d-1 {
+  display: flex;
+  min-height: 128px;
+}
+/* == Contenedor de nombre del juego == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-1 {
+  max-width: 386px;
+  width: 100%;
+  padding: 6px 0;
+}
+/* == Nombre del juego == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-1 p {
+  font-size: 1.125em;
+  color: #FFF;
+}
+
+/* == Contenedor de descuento y precio del juego == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  width: 100%;
+}
+/* == Contenedor de nombre y porcentaje del descuento == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_d-1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3px 6px;
+  flex-wrap: wrap;
+}
+/* == Nombre del descuento == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_d-1_p-1 {
+  font-size: 0.875em;
+  color: #7FAB00;
+  text-align: right;
+}
+/* == Contenedor del porcentaje de descuento == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_d-1_d-1 {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0 3px;
+  border-radius: 4px;
+  background-color: #80AB00;
+}
+/* == Porcentaje de descuento == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_d-1_d-1 p {
+  font-size: 0.875em;
+  line-height: 0.8em;
+  color: #FFF;
+}
+/* == Precio anterior == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_p-1 {
+  margin-top: 6px;
+  font-size: 0.875em;
+  line-height: 0.9em;
+  color: #737881;
+  text-decoration: line-through #547000 solid 1px;
+  text-align: right;
+}
+/* == Precio actual == */
+.main_sec-1_d-1_d-t-1_d-2_d-1_d-2_p-2 {
+  /*margin-top: 0px;*/
+  font-size: 1.125em;
+  line-height: 1em;
+  color: #FFF;
+  text-align: right;
+}
+
+/* == Botón Eliminar == */
+.main_sec-1_d-1_d-t-1_d-2_d-2_button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  max-width: 96px;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 6px;
+  border-radius: 6px;
+  border: solid 1px #575B62;
+  background-color: #323538;
+}
+.main_sec-1_d-1_d-t-1_d-2_d-2_button-1:hover {
+  border-color: #C5C8CC;
+}
+/* == Icono Eliminar == */
+.main_sec-1_d-1_d-t-1_d-2_d-2_button-1 img {
+  display: block;
+  width: 23px;
+  height: 18px;
+  font-size: 0.625em;
+  color: #FFF;
+}
+/* == Eliminar == */
+.main_sec-1_d-1_d-t-1_d-2_d-2_button-1 p {
+  font-size: 0.875em;
+  line-height: 1em;
+  color: #E4E5E5;
+}
+
+/* == Contendor de total y monto == */
+.main_sec-1_d-1_d-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 32px;
+  border-style: solid none;
+  border-width: 1px;
+  border-color: #575B62;
+  background-color: #323538;
+}
+
+/* == Total y monto == */
+.main_sec-1_d-1_d-3 p {
+  font-size: 1.125em;
+}
+/* == Total == */
+.main_sec-1_d-1_d-3 p .span-1 {
+  color: #99A4B1;
+}
+/* == Monto == */
+.main_sec-1_d-1_d-3 p .span-2 {
+  color: #FFF;
+}
+
+/* == Contenedor de total, monto y botón pagar == */
+.main_sec-1_d-2 {
+  max-width: 260px;
+  width: 100%;
+  min-height: 111px;
+  /*height: 306px;*/
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #202124;
+  box-shadow: 4px 4px 7px -2px #000;
+}
+
+/* == Contenedor de total y monto == */
+.main_sec-1_d-2_d-1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #3B3E43;
+}
+/* == Total y monto == */
+.main_sec-1_d-2_d-1 p {
+  font-size: 100%;
+  font-size: 1.125em;
+  line-height: 1em;
+}
+/* == Total == */
+.main_sec-1_d-2_d-1 p .span-1 {
+  color: #99A4B1;
+}
+/* == Monto == */
+.main_sec-1_d-2_d-1 p .span-2 {
+  color: #FFF;
+}
+
+/* == Botón Pagar == */
+.main_sec-1_d-2_button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  max-width: 236px;
+  width: 100%;
+  min-height: 42px;
+  margin-top: 12px;
+  padding: 0 6px;
+  border-radius: 6px;
+  border: none;
+  background-color: #80AB00;
+  background-image: linear-gradient(#ACE600, #80AB00);
+}
+.main_sec-1_d-2_button-1:hover {
+  background-color: #ACE600;
+  background-image: linear-gradient(#80AB00, #ACE600);
+}
+.main_sec-1_d-2_button-1:active {
+  background-color: #ACE600;
+  background-image: none;
+}
+/* == Icono Pagar == */
+.main_sec-1_d-2_button-1 img {
+  display: block;
+  width: 30px;
+  height: 24px;
+  font-size: 0.625em;
+  color: #FFF;
+}
+/* == Pagar == */
+.main_sec-1_d-2_button-1 p {
+  font-size: 1.125em;
+  line-height: 1em;
+  color: #FFF;
+}

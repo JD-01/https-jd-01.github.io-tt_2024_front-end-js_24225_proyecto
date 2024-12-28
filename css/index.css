@@ -1,268 +1,6 @@
 /* ========================================================== */
-/* == Propiedades Globales ================================== */
+/* == Cards ================================================= */
 
-* {
-  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-/* ====== */
-html, body {
-  height: 100%;
-}
-/* ====== */
-body {
-  background-color: #575B62;
-}
-/* ====== */
-body, button {
-  font-size: 100%;
-}
-
-/* ========================================================== */
-/* == Contenedor base ======================================= */
-
-.contenedor-base {
-  max-width: 1280px;
-  margin: auto;
-  padding: 12px;
-  /*background-color: red;*/
-}
-/* == Contenedor de elementos: header, nav (lateral izquierdo), main y footer == */
-.contenedor-base_d-1 {
-  max-width: 1256px;
-  padding: 6px;
-  border-radius: 12px;
-  background-color: #202124;
-}
-
-/* ========================================================= */
-/* == Header =============================================== */
-
-header {
-  display: flex;
-  /*background-color: red;*/
-}
-/* == Contenedor de icono control y logo-texto Talento Tech == */
-.header_d-1 {
-  display: flex;
-  gap: 9px;
-  align-items: center;
-  max-width: 220px;
-  width: 100%;
-  min-height: 74px;
-  border-radius: 8px 8px 0 0;  
-  background-color: #292B2E;
-  /*background-color: blue;*/
-}
-/* == Contenedor de icono control == */
-.header_d-1_d-1 {
-  display: flex;
-  /*justify-content: center;*/
-  align-items: center;
-  max-width: 60px;
-  width: 100%;
-  min-height: 40px;
-  border-radius: 0 20px 20px 0;
-  background-color: #202124;
-}
-/* == Icono control == */
-.header_d-1_d-1_img-1 {
-  display: block;
-  margin-left: 9px;
-  width: 36px;
-  height: 22px;
-  /*background-color: antiquewhite;*/
-}
-/* == Logo-texto Talento Tech == */
-.header_d-1_p-1 {
-  font-size: 1.125em;
-  /*font-size: 1.25em;*/
-  /*font-size: 1.5em;*/
-  color: #FFF;
- /*text-shadow: rgba(0,0,0,.01) 0 0 1px;*/
-  /*background-color: aquamarine;*/
-}
-
-/* == Contenedor de nav (superior izquierdo) e icono avatar == */
-.header_d-2 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  /*background-color: red;*/
-}
-/* == Nav (superior izquierdo) == */
-.header_d-2_nav-1 {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  /*background-color: red;*/
-}
-/* == Enlace a Carrito == */
-.header_d-2_nav-1_a-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
-  width: 28px;
-  height: 29px;
-  /*background-color: red;*/
-}
-/* == Cantidad de elementos del carrito == */
-.header_d-2_nav-1_a-1 p {
-  display: table;
-  position: absolute;
-  min-width: 14px;
-  height: 14px;
-  top: 0;
-  left: 9px;
-  padding: 1px;
-  border-radius: 7px;
-  background-color: #575B62;
-  font-size: 0.75em;
-  line-height: 1em;
-  color:#FFF;
-  text-align: center;
-}
-/* == Icono carrito == */
-.header_d-2_nav-1_a-1 img {
-  display: block;
-  width: 28px;
-  height: 22px;
-  /*background-color: blue;*/
-}
-/* == Enlaces a Entrar y Crear cuenta == */
-.header_d-2_nav-1_a-2,
-.header_d-2_nav-1_a-3 {
-  font-size: 1em;
-  color: #E4E5E6;
-  text-decoration: none;
-}
-/* == Icono de Avatar == */
-.header_img-1 {
-  display: block;
-  width: 64px;
-  height: 64px;
-}
-
-/* ========================================================= */
-/* == Contenedor Nav-Main-Footer =========================== */
-
-.contenedor-nav-main-footer {
-  display: flex;
-  gap: 6px;
-  margin-top: 2px;
-  /*background-color: red;*/
-}
-
-/* ========================================================= */
-/* == Nav ================================================== */
-
-.nav {
-  display: flex;
-  flex-direction: column;
-  max-width: 220px;
-  width: 100%;
-  /*padding-top: 32px;*/
-  border-bottom-left-radius: 8px;
-  background-color: #292B2E;
-  /*background-color: blueviolet;*/
-}
-/* == Contenedor (Tipo 1) de Sección: Sitio, Cuenta, ... == */
-.nav_d-t-1 {
-  display: flex;
-  align-items: center;
-  min-height: 24px;
-  margin-top: 32px;
-  /*padding: 0 6px 0 20px;*/
-  background-color: #323538;
-}
-/* == Sitio, Cuenta, ... == */
-.nav_d-t-1 p {
-  /*display: table;*/
-  max-width: 202px;
-  width: 100%;
-  margin-left: auto; /*24px;*/
-  padding: 0 6px 0;  
-  font-size: 1.125em;
-  color:#99A4B1;
-  line-height: 1em;
-  /*background-color: green;*/
-}
-/* == Contenedor (Tipo 2) de icono y enlace Inicio == */
-.nav_d-t-2 {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 6px 18px;
-  max-width: 202px;
-  width: 100%;
-  margin: 24px 0 0 auto;
-  padding: 0 6px 0;
-  /*background-color: red;*/
-}
-/* == Contenedor de icono == */
-.nav_d-t-2_d-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 28px;
-  width: 100%;
-  min-height: 24px;
-  /*background-color: blue;*/
-}
-/* == Icono == */
-.nav_d-t-2_d-1 img {
-  display: block;
-  /*margin: auto;*/
-}
-/* == Icono Inicio == */
-.nav_d-t-2_d-1_img-t-1 {
-  width: 24px;
-  height: 24px;
-}
-/* == Icono Contacto == */
-.nav_d-t-2_d-1_img-t-2 {
-  width: 25px;
-  height: 24px;
-}
-/* == Icono Carrito == */
-.nav_d-t-2_d-1_img-t-3 {
-  width: 28px;
-  height: 22px;
-}
-/* == Enlace == */
-.nav_d-t-2_a-1 {
-  font-size: 1em;
-  color: #E4E5E6;
-  text-decoration: none;
-  /*background-color: red;*/
-}
-
-/* ========================================================= */
-/* == Contenedor Main-Footer =============================== */
-
-.contenedor-main-footer {
-  display: flex;
-  max-width: 1018px;
-  width: 100%;
-  /*margin: auto;*/
-  flex-direction: column;
-  /*background-color: red;*/
-}
-
-/* ========================================================= */
-/* == Main ================================================= */
-
-main {
-  display: flex;
-  /*min-height: 600px;*/
-  padding: 18px 18px 32px;
-  border-radius: 0 8px 0 0;
-  background-color: #292B2E;
-}
 /* == Contenedor de cards de juegos == */
 .main_sec-1 {
   display: flex;
@@ -272,7 +10,6 @@ main {
   max-width: 982px;
   width: 100%;
   min-height: 300px;
-  /*background-color: rebeccapurple;*/
 }
 /* == Card de juego ==== */
 .main_sec-1_d-t-1 {
@@ -288,28 +25,23 @@ main {
 /* == Imagen del juego ==== */
 .main_sec-1_d-t-1_img-1 {
   display: block;
-  width: 166px;
-  height: 208px;
+  width: 160px;
+  height: 200px;
   margin: 0 auto;
   font-size: 0.75em;
-  color: #FFF;  
+  color: #FFF;
 }
 
 /* == Información del juego ==== */
 .main_sec-1_d-t-1_d-1 {
-  /*display: block;*/
   position: absolute;
   bottom: 0;
   width: 100%;
   min-height: 156px;
   padding: 0 6px 6px;
-  /*margin: auto;*/
   border-radius: 7px;
   border: solid 1px #575B62;
-  /*background-color: #27282B;*/
-  /*opacity: 0.8;*/
   background-color: rgba(39, 40, 43, 0.8); /*#27282B*/
-  /*background-color:blueviolet;*/  
 }
 /* == Contenedor de nombre ==== */
 .main_sec-1_d-t-1_d-1_d-1 {
@@ -401,7 +133,6 @@ main {
   justify-content: space-between;
   gap: 6px;
   flex-wrap: wrap;
-
   margin-top: 8px;
 }
 /* == Contenedor de descuento ==== */
@@ -434,7 +165,6 @@ main {
   color: #737881;
   text-decoration: line-through #547000 solid;
   text-align: right;
-  /* background-color: blue; */
 }
 /* == Precio actual ==== */
 .main_sec-1_d-t-1_d-1_d-3_d-2_p-2 {
@@ -498,28 +228,5 @@ main {
 .main_sec-1_d-t-1_d-1_d-4_button-1 p {
   font-size: 1em;
   line-height: 1em;
-  color: #FFF;
-}
-
-/* ========================================================= */
-/* == Footer =============================================== */
-
-footer {
-  margin-top: 6px;
-  padding: 18px 12px 18px;
-  border-radius: 0 0 8px 0;
-  background-color: #292B2E;
-}
-/* == Talento Tech == */
-.footer_p-1 {
-  padding-bottom: 12px;  
-  /*font-size: 1.25em;*/
-  font-size: 1.5em;
-  color: #FFF;
-}
-/* == Año 2024 - Curso Frond-End JS - Comisión 24225 - Pre-Entrega de Proyecto == */
-.footer_p-2 {
-  padding-top: 12px;
-  border-top: solid 1px #C5C8CC;
   color: #FFF;
 }
